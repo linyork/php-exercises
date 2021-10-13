@@ -1,13 +1,13 @@
 <?php
 class car
 {
-	private $name = 'york的車子';
 	private static $normal_name = 'Subaru';
+	private $name = 'york的車子';
 
 	// __construct 不得為 static function
 	public function __construct()
 	{
-		echo 'instance 才會跑到這裡'.PHP_EOL;
+		//echo 'instance 才會跑到這裡'.PHP_EOL;
 	}
 
 	// static
@@ -23,10 +23,28 @@ class car
 	}
 }
 
+/**
+ * 問題一
+ * echo car::getNormalName();
+ * 上述程式可否執行
+ */
 
-echo car::getNormalName().PHP_EOL;
-echo (new car)->getName().PHP_EOL;
+/**
+ * 問題二
+ * echo car::getName();
+ * 上述程式可否執行
+ */
 
-// 問題一
-// echo (new car)->getNormaName().PHP_EOL;
-// 上述程式可否執行
+/**
+ * 問題三
+ * $obj = new car()
+ * echo $obj->getNormaName();
+ * 上述程式可否執行
+ */
+
+/**
+ * 問題三
+ * $obj = new car()
+ * echo $obj->getName();
+ * 上述程式可否執行
+ */
