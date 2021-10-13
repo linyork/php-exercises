@@ -1,5 +1,5 @@
 <?php
-class car
+class Car
 {
 	private static $normal_name = 'Subaru';
 	private $name = 'york的車子';
@@ -25,26 +25,26 @@ class car
 
 /**
  * 問題一
- * echo car::getNormalName();
- * 上述程式可否執行
+ * echo Car::getNormalName();
+ * 上述程式可以執行嗎
  */
 
 /**
  * 問題二
- * echo car::getName();
- * 上述程式可否執行
+ * echo Car::getName();
+ * 上述程式可以執行嗎
  */
 
 /**
  * 問題三
- * $obj = new car()
+ * $obj = new Car()
  * echo $obj->getNormaName();
- * 上述程式可否執行
+ * 上述程式可以執行嗎
  */
 
 /**
  * 問題三
- * $obj = new car()
+ * $obj = new Car()
  * echo $obj->getName();
- * 上述程式可否執行
+ * 上述程式可以執行嗎
  */
