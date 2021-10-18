@@ -1,8 +1,8 @@
 <?php
 class Car
 {
-	private static $normal_name = 'Subaru';
-	private $name = 'york的車子';
+	private static $_normal_name = 'Subaru';
+	private $_name = 'york的車子';
 
 	// __construct 不得為 static function
 	public function __construct()
@@ -13,13 +13,13 @@ class Car
 	// static
 	public static function getNormalName() : string
 	{
-		return self::$normal_name;
+		return self::$_normal_name;
 	}
 
 	// instance
 	public function getName() : string
 	{
-		return $this->name;
+		return $this->_name;
 	}
 }
 
