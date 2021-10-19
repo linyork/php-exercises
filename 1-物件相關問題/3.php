@@ -36,10 +36,11 @@ class ShopBreadCrumbs extends BreadCrumbsTmplate
 
 /**
  * 問題一
- * $bread = new ShopBreadCrumbs();
- * $bread->addBread( ShopBreadCrumbs::PREF, ['My item']);
- * 上述程式可以執行嗎
+ * 下列程式可以執行嗎
  */
+// $bread = new ShopBreadCrumbs();
+// $bread->addBread( ShopBreadCrumbs::PREF, ['My item']);
+// $bread->getBreadCrumbs();
 
 /**
  * 問題二

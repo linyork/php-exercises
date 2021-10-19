@@ -1,8 +1,8 @@
 <?php
 class Car
 {
-	private static $_normal_name = 'Subaru';
-	private $_name = 'york的車子';
+	private static $_normal_name = '西羅摩';
+	private $_name = 'york的天竺鼠車車';
 
 	// __construct 不得為 static function
 	public function __construct()
@@ -25,26 +25,26 @@ class Car
 
 /**
  * 問題一
- * echo Car::getNormalName();
- * 上述程式可以執行嗎
+ * 下列程式可以執行嗎
  */
+//echo Car::getNormalName();
 
 /**
  * 問題二
- * echo Car::getName();
- * 上述程式可以執行嗎
+ * 下列程式可以執行嗎
  */
+//echo Car::getName();
 
 /**
  * 問題三
- * $obj = new Car()
- * echo $obj->getNormaName();
- * 上述程式可以執行嗎
+ * 下列程式可以執行嗎
  */
+$obj = new Car();
+//echo $obj->getNormaName();
 
 /**
  * 問題三
- * $obj = new Car()
- * echo $obj->getName();
- * 上述程式可以執行嗎
+ * 下列程式可以執行嗎
  */
+$obj = new Car();
+//echo $obj->getName();
