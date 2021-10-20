@@ -5,11 +5,10 @@ class Animal
 
 	protected $_animal_name;
 
-	private function sleep()
+	private function eat()
 	{
-		echo "sleep";
+		echo "eat";
 	}
-
 }
 
 class Dog extends Animal
@@ -21,7 +20,6 @@ class Dog extends Animal
 		$this->_animal_name = self::NAME;
 	}
 }
-
 
 /**
  * 問題一
@@ -40,7 +38,7 @@ class Dog extends Animal
  * 下列程式可以執行嗎
  */
 //$dog = new Dog();
-//echo $dog->sleep();
+//$dog->eat();
 
 /**
  * 問題四
