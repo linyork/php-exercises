@@ -10,7 +10,7 @@ class Home
 
 	public function getName() : string
 	{
-		return self::$name;
+		return $this->name;
 	}
 
 	// static
