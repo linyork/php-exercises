@@ -27,10 +27,10 @@ class SingleDog
  * 問題一
  * 下列程式可以執行嗎
  */
-$dog1 = SingleDog::getInstance( '周星星');
-$dog2 = SingleDog::getInstance( '周星馳');
-echo $dog1->getName().PHP_EOL;
-echo $dog2->getName().PHP_EOL;
+//$dog1 = SingleDog::getInstance( '周星星');
+//$dog2 = SingleDog::getInstance( '周星馳');
+//echo $dog1->getName().PHP_EOL;
+//echo $dog2->getName().PHP_EOL;
 
 /**
  * 問題二
